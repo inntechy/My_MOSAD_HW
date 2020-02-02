@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF006467233915A3008B809A /* English.png in Resources */ = {isa = PBXBuildFile; fileRef = EF00645F233915A2008B809A /* English.png */; };
+		EF006468233915A3008B809A /* learn1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006460233915A2008B809A /* learn1.png */; };
+		EF006469233915A3008B809A /* user2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006461233915A2008B809A /* user2.png */; };
+		EF00646A233915A3008B809A /* learn2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006462233915A2008B809A /* learn2.png */; };
+		EF00646B233915A3008B809A /* Spanish.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006463233915A2008B809A /* Spanish.png */; };
+		EF00646C233915A3008B809A /* German.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006464233915A2008B809A /* German.png */; };
+		EF00646D233915A3008B809A /* user1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006465233915A2008B809A /* user1.png */; };
+		EF00646E233915A3008B809A /* Japanese.png in Resources */ = {isa = PBXBuildFile; fileRef = EF006466233915A3008B809A /* Japanese.png */; };
+		EF0B826223373AE70082B799 /* SelectLanguageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0B826123373AE70082B799 /* SelectLanguageView.m */; };
+		EF0B826523373C880082B799 /* SelectLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0B826423373C880082B799 /* SelectLanguageViewController.m */; };
+		EF0B82682337ECA60082B799 /* SelectLanguageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0B82672337ECA60082B799 /* SelectLanguageCollectionViewCell.m */; };
+		EF9621DC232F4F9B00A401D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9621DB232F4F9B00A401D5 /* AppDelegate.m */; };
+		EF9621DF232F4F9B00A401D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9621DE232F4F9B00A401D5 /* ViewController.m */; };
+		EF9621E4232F4F9B00A401D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9621E3232F4F9B00A401D5 /* Assets.xcassets */; };
+		EF9621EA232F4F9B00A401D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9621E9232F4F9B00A401D5 /* main.m */; };
+		EFE786D32339C9E50056BFA0 /* LearningTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE786D22339C9E50056BFA0 /* LearningTableViewController.m */; };
+		EFE786D6233A288F0056BFA0 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE786D5233A288F0056BFA0 /* UserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF00645F233915A2008B809A /* English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English.png; path = ../../../../../manual/resources/English.png; sourceTree = "<group>"; };
+		EF006460233915A2008B809A /* learn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = learn1.png; path = ../../../../../manual/resources/learn1.png; sourceTree = "<group>"; };
+		EF006461233915A2008B809A /* user2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user2.png; path = ../../../../../manual/resources/user2.png; sourceTree = "<group>"; };
+		EF006462233915A2008B809A /* learn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = learn2.png; path = ../../../../../manual/resources/learn2.png; sourceTree = "<group>"; };
+		EF006463233915A2008B809A /* Spanish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spanish.png; path = ../../../../../manual/resources/Spanish.png; sourceTree = "<group>"; };
+		EF006464233915A2008B809A /* German.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = German.png; path = ../../../../../manual/resources/German.png; sourceTree = "<group>"; };
+		EF006465233915A2008B809A /* user1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user1.png; path = ../../../../../manual/resources/user1.png; sourceTree = "<group>"; };
+		EF006466233915A3008B809A /* Japanese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Japanese.png; path = ../../../../../manual/resources/Japanese.png; sourceTree = "<group>"; };
+		EF0B826023373AE70082B799 /* SelectLanguageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectLanguageView.h; sourceTree = "<group>"; };
+		EF0B826123373AE70082B799 /* SelectLanguageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectLanguageView.m; sourceTree = "<group>"; };
+		EF0B826323373C880082B799 /* SelectLanguageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectLanguageViewController.h; sourceTree = "<group>"; };
+		EF0B826423373C880082B799 /* SelectLanguageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectLanguageViewController.m; sourceTree = "<group>"; };
+		EF0B82662337ECA60082B799 /* SelectLanguageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectLanguageCollectionViewCell.h; sourceTree = "<group>"; };
+		EF0B82672337ECA60082B799 /* SelectLanguageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectLanguageCollectionViewCell.m; sourceTree = "<group>"; };
+		EF9621D7232F4F9B00A401D5 /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9621DA232F4F9B00A401D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9621DB232F4F9B00A401D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9621DD232F4F9B00A401D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF9621DE232F4F9B00A401D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF9621E3232F4F9B00A401D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9621E8232F4F9B00A401D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9621E9232F4F9B00A401D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFE786D12339C9E50056BFA0 /* LearningTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningTableViewController.h; sourceTree = "<group>"; };
+		EFE786D22339C9E50056BFA0 /* LearningTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningTableViewController.m; sourceTree = "<group>"; };
+		EFE786D4233A288F0056BFA0 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		EFE786D5233A288F0056BFA0 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9621D4232F4F9B00A401D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF00645D23391390008B809A /* Asserts */ = {
+			isa = PBXGroup;
+			children = (
+				EF00645F233915A2008B809A /* English.png */,
+				EF006464233915A2008B809A /* German.png */,
+				EF006466233915A3008B809A /* Japanese.png */,
+				EF006460233915A2008B809A /* learn1.png */,
+				EF006462233915A2008B809A /* learn2.png */,
+				EF006463233915A2008B809A /* Spanish.png */,
+				EF006465233915A2008B809A /* user1.png */,
+				EF006461233915A2008B809A /* user2.png */,
+			);
+			path = Asserts;
+			sourceTree = "<group>";
+		};
+		EF9621CE232F4F9B00A401D5 = {
+			isa = PBXGroup;
+			children = (
+				EF9621D9232F4F9B00A401D5 /* HW3 */,
+				EF9621D8232F4F9B00A401D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9621D8232F4F9B00A401D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9621D7232F4F9B00A401D5 /* HW3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9621D9232F4F9B00A401D5 /* HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				EF00645D23391390008B809A /* Asserts */,
+				EF9621F0232F511700A401D5 /* Views */,
+				EF9621F1232F513900A401D5 /* Controllers */,
+				EF9621DA232F4F9B00A401D5 /* AppDelegate.h */,
+				EF9621DB232F4F9B00A401D5 /* AppDelegate.m */,
+				EF9621DD232F4F9B00A401D5 /* ViewController.h */,
+				EF9621DE232F4F9B00A401D5 /* ViewController.m */,
+				EF9621E3232F4F9B00A401D5 /* Assets.xcassets */,
+				EF9621E8232F4F9B00A401D5 /* Info.plist */,
+				EF9621E9232F4F9B00A401D5 /* main.m */,
+			);
+			path = HW3;
+			sourceTree = "<group>";
+		};
+		EF9621F0232F511700A401D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF0B826023373AE70082B799 /* SelectLanguageView.h */,
+				EF0B826123373AE70082B799 /* SelectLanguageView.m */,
+				EF0B82662337ECA60082B799 /* SelectLanguageCollectionViewCell.h */,
+				EF0B82672337ECA60082B799 /* SelectLanguageCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF9621F1232F513900A401D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFE786D12339C9E50056BFA0 /* LearningTableViewController.h */,
+				EFE786D22339C9E50056BFA0 /* LearningTableViewController.m */,
+				EF0B826323373C880082B799 /* SelectLanguageViewController.h */,
+				EF0B826423373C880082B799 /* SelectLanguageViewController.m */,
+				EFE786D4233A288F0056BFA0 /* UserViewController.h */,
+				EFE786D5233A288F0056BFA0 /* UserViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9621D6232F4F9B00A401D5 /* HW3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9621ED232F4F9B00A401D5 /* Build configuration list for PBXNativeTarget "HW3" */;
+			buildPhases = (
+				EF9621D3232F4F9B00A401D5 /* Sources */,
+				EF9621D4232F4F9B00A401D5 /* Frameworks */,
+				EF9621D5232F4F9B00A401D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW3;
+			productName = HW3;
+			productReference = EF9621D7232F4F9B00A401D5 /* HW3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9621CF232F4F9B00A401D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = inntechy;
+				TargetAttributes = {
+					EF9621D6232F4F9B00A401D5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EF9621D2232F4F9B00A401D5 /* Build configuration list for PBXProject "HW3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9621CE232F4F9B00A401D5;
+			productRefGroup = EF9621D8232F4F9B00A401D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9621D6232F4F9B00A401D5 /* HW3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9621D5232F4F9B00A401D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF00646E233915A3008B809A /* Japanese.png in Resources */,
+				EF00646D233915A3008B809A /* user1.png in Resources */,
+				EF006467233915A3008B809A /* English.png in Resources */,
+				EF00646C233915A3008B809A /* German.png in Resources */,
+				EF006468233915A3008B809A /* learn1.png in Resources */,
+				EF006469233915A3008B809A /* user2.png in Resources */,
+				EF00646B233915A3008B809A /* Spanish.png in Resources */,
+				EF00646A233915A3008B809A /* learn2.png in Resources */,
+				EF9621E4232F4F9B00A401D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9621D3232F4F9B00A401D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0B826523373C880082B799 /* SelectLanguageViewController.m in Sources */,
+				EF9621DF232F4F9B00A401D5 /* ViewController.m in Sources */,
+				EF9621EA232F4F9B00A401D5 /* main.m in Sources */,
+				EF0B826223373AE70082B799 /* SelectLanguageView.m in Sources */,
+				EFE786D32339C9E50056BFA0 /* LearningTableViewController.m in Sources */,
+				EFE786D6233A288F0056BFA0 /* UserViewController.m in Sources */,
+				EF9621DC232F4F9B00A401D5 /* AppDelegate.m in Sources */,
+				EF0B82682337ECA60082B799 /* SelectLanguageCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF9621EB232F4F9B00A401D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF9621EC232F4F9B00A401D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9621EE232F4F9B00A401D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HW3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inntechy.HW3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF9621EF232F4F9B00A401D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HW3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inntechy.HW3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9621D2232F4F9B00A401D5 /* Build configuration list for PBXProject "HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9621EB232F4F9B00A401D5 /* Debug */,
+				EF9621EC232F4F9B00A401D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9621ED232F4F9B00A401D5 /* Build configuration list for PBXNativeTarget "HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9621EE232F4F9B00A401D5 /* Debug */,
+				EF9621EF232F4F9B00A401D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9621CF232F4F9B00A401D5 /* Project object */;
+}

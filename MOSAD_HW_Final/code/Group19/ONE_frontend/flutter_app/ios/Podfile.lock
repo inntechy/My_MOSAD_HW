@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - share_extend (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - share_extend (from `.symlinks/plugins/share_extend/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  share_extend:
+    :path: ".symlinks/plugins/share_extend/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  share_extend: b6748dc53695587891126a89533b862b92548c7b
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+
+PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
+
+COCOAPODS: 1.8.3
