@@ -5,7 +5,7 @@ import 'package:flutter_image/network.dart';
 import 'big_photo.dart';
 import 'package:share_extend/share_extend.dart';
 import 'package:flutter_app/model/weather.dart';
-
+import 'package:transparent_image/transparent_image.dart';
 
 class ArticleContent {
   int id;
@@ -290,7 +290,9 @@ class PageState extends State<Page> {
                 return Column(
                   children: <Widget>[
                     GestureDetector(
-                      child: Image(
+                      child: FadeInImage(
+                        height: 240,
+                        placeholder: MemoryImage(kTransparentImage),
                           image: NetworkImageWithRetry(_content.photoUrl)),
                       onTap: () {
                         _jumpToBigPhoto(_content.photoUrl);
@@ -325,9 +327,6 @@ class PageState extends State<Page> {
                             left: 40, right: 40, top: 15, bottom: 15),
                       ),
                     ),
-                    Row(
-                      children: <Widget>[Text("Icons")],
-                    )
                   ],
                 );
               }
@@ -446,7 +445,7 @@ class PageState extends State<Page> {
                           ),
                         ), // ma
 
-                        // 日期和点赞
+                        // 日期和分享
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
@@ -467,10 +466,6 @@ class PageState extends State<Page> {
                               ),
                             Row(
                               children: <Widget>[
-                                Icon(
-                                  Icons.favorite_border,
-                                  color: Colors.grey,
-                                ),
                                 InkWell(
                                   child: Icon(
                                     Icons.share,
